@@ -1,1 +1,2 @@
-# eosiomedipediatoken
+# Medipedia Token
+## Symbol : MEP

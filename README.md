@@ -29,3 +29,34 @@ cleos set contract eosiomedipedia ../eosiomedipedia -p eosiomedipedia@active
 ```
 cleos get code eosiomedipedia
 ```
+
+### Create Token
+
+```
+cleos push action eosiomedipedia create '["eosiomedipedia","260000000.00 MEP"]' -p eosiomedipedia@active
+```
+
+### Issue Token
+
+```
+cleos push action eosiomedipedia issue '["eosiomedipedia","130000000.00 MEP","memo"]' -p eosiomedipedia@active
+```
+
+
+### Transfer Token
+
+```
+cleos push action eosiomedipedia transfer '["eosiomedipedia","user","30000000.00 MEP","memo"]' -p eosiomedipedia
+```
+
+### Check Balance
+
+```
+cleos get currency balance eosiomedipedia user
+```
+```
+cleos get currency balance eosiomedipedia eosiomedipedia
+```
+```
+cleos get currency stats eosiomedipedia MEP
+```

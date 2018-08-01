@@ -1,7 +1,7 @@
 # Medipedia Token
 ## Symbol : MEP
 
-## Steps to deploy and use the deployed token
+## Steps to deploy smart contract and use the deployed token in EOS Blockchain
 
 ### Create Keys
 Private key: "YOUR-PRIVATE-KEY"

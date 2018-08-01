@@ -105,15 +105,17 @@
     }
   ],
   "tables": [{
-      "name": "transferargs",
+      "name": "accounts",
+      "type": "account",
       "index_type": "i64",
-      "key_names": [
-        "from"
-      ],
-      "key_types": [
-        "name"
-      ],
-      "type": "transfer_args"
+      "key_names" : ["currency"],
+      "key_types" : ["uint64"]
+    },{
+      "name": "stat",
+      "type": "currency_stats",
+      "index_type": "i64",
+      "key_names" : ["currency"],
+      "key_types" : ["uint64"]
     }
   ],
   "ricardian_clauses": [],
